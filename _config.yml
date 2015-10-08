@@ -99,6 +99,6 @@ favicon: /favicon.png
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repo: git@github.com:tomchambers2/tomchambers-writing.git
   branch: gh-pages
