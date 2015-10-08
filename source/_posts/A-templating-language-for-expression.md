@@ -1,0 +1,24 @@
+title: A templating language for expression
+date: 2014-02-02 14:57:03
+tags: philosophy, internet
+---
+
+##### "Give us adequate images. We lack adequate images. Our civilization does not have adequate images. And I think a civilization is doomed or is going to die out like dinosaurs if it doesn't develop an adequate language for adequate images." --Werner Herzog
+
+I wrote previously about a [concept of full stack communication](/2014/11/02/How-to-convince-people/). Based on the notion that what really matters to us, and often what matters in political arguments are qualia (experiential states that can't effectively be communicated using public language - link to wittgenstein), I proposed that we dig deeper and try to communicate the subjective emotive and value driven layers that lie beneath our arguments to find a common frame of reference understandable by all humans.
+
+There are some people in society who are exceptionally effective at communicating these more intuitive layers. They're so good that we pay money to experience their output in film, books, paintings, music and so on. They have either a natural or well developed talent for turning their inner world into something tangible. Unfortunately, we don't all have such skills.
+
+What's needed is a templating language for expression. A template is a step inbetween infinite customisation and something completely packaged and employed without control. It uses various simplified components as building blocks to achieve a limited level of articulation compared to manipulating something at a more fundamental level. Templates can exist on a very broad spectrum of complexity, depending on the number of decisions that have already been made by the time the user comes to put elements together.
+
+Mass amateurization is about the destruction of professional categories that exist as a consequence of there being a barrier to entry created by unequal access to resources or skill level. There are few barriers preventing people from picking up a paintbrush or opening their mouth to sing, but there is clearly a gulf of difference between a novice someone with years of practice.
+
+There are many processes in the world that can be simplified using technology, but the best point of mass amateurization is vastly lowering the barriers to communicating visions. Ideas and visions are things that exist inside people's heads, created billions of times each day, naturally and spontaneously as people go about doing what they do. Sadly, the vast majority of this creative vision is lost because its authors lack the disciplined skill to put it into practice, or perhaps even the awareness that it would be possible to do so.
+
+Vision is not necessarily correlated with skill, and the greatest visions often require talent to outline the first step of production. I can describe the features of my ideal home, and someone else has the skill to design that. I can stipulate the requirements for a piece of software and a programmer can build something that meets those needs. Unlike other things in which blueprints or outlines can be produced for someone else to take further, someone else cannot write a poem that expresses exactly how you feel, because there is no intermediary blueprint step. The translation of the intangible into a blueprint requires the poet's skills, so it's only the poets mind that is expressed on paper.
+
+It's not the poets mind, feelings or thoughts that are of such value. We all have strong and profound emotions, but when most people try and express them, much of the signal is lost, and the output is reduced because of the technical skill. 
+
+These expressions are not valuable only because of culture, because of the need for our society to build up a record of its emotional and introspective self, or to express the zeitgeist as a call to action or reflection. Culture and entertainment are of great value, but communication between people is what matters most. If we all have access to them it improves the access to each other's minds. Because that's what these expressions really are, its' a carrier of information from one person to another. There will always be a loss of signal in the process of conversion, that's inevitable. But we can increase the volume and get to that lower level. As stated in the other article, to understand each other and overcome conflict, we need to express something that our language currently fails to do, because we attempt to convey the surface level, superficial rationalisation of our thoughts, rather than something deeper and more difficult to express.
+
+Art is not something that is reserved for a specific group of people. It is not the manufacturing of chairs or the answering of phones in a call centre. It cannot be outsourced. It is a act that is productive of society, much like voting. To be a member of society, you have to make art.

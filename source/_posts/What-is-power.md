@@ -1,0 +1,13 @@
+title: What is power?
+date: 2015-04-06 21:34:26
+tags: philosophy
+---
+Power is the sublime. We perceive power when we understand that something is beyond boundaries. That boundary can be the law, social codes or the conceptual categories you use to file something in your mind. Boundary crossing is increasingly frightening in that order because the further you go the more difficult it is to make sense of.
+
+Somebody who breaks the law is a criminal. They have disrupted order and are potentially a threat to physical safety but their motives are clear and they have a motivation for doing so. Their motivation neuters fear because it makes them rational and if somebody is rational they can be defeated using logic or what they want can be taken away from them. A remorseless killer who murders for no other reason than because they wanted to is far more frightening than a gangster who shoots a rival over money.
+
+Breaches of social codes are more disturbing because they challenge unconscious mental structures. If a man wears a dress it forces you to consider the insecurity of your own gender construct. You’re compelled to understand that there is not such a clear divide between men and women as you thought thus your understanding is reduced. Imagine you walk into a shop and the man behind the till does not respond and just turns in circles silently with his eyes fixed on the middle distance. This is even more frightening because the functioning of his mind cannot be determined. There is no ability to reason about his thoughts or actions.
+
+The most terrifying of all are those things that we cannot put any boundaries around at all. Caves, the deepness of the ocean and the vastness of the ocean all allow us to project our worst fears into them. Worse than that, the projected idea is entirely conceptual. We generate in our minds the essence of the thing, which would not appear to us in real life even if exactly reconstructed. A ghost is entirely unbounded. We cannot understand where they are, how they move from place to place or what the limits of their capabilities are.
+
+God and the devil fit into this final category. Or rather we put the parts of our mind that we cannot make sense of into these categories. Forces that are not understandable but are good are god and forces that are inexplicable and sinister we call the devil. If you cannot simulate a person’s thoughts and life in your mind then they take on an air of power. For the same reason people have bought into the concept of a darknet because they do not fully understand the internet. In spite of its actual benignness, people have assigned it a tremendous power because of its mystery.
