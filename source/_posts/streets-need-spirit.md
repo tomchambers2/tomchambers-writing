@@ -2,6 +2,11 @@ title: Streets need spirit
 date: 2015-04-06 21:28:23
 tags: urbanism
 ---
+
+{% blockquote Derek Walker, The Architecture and Planning of Milton Keynes, The Architectural Press, 1981, p73 %}
+The great lakes and engineering structures, the large scale housing and employment areas now have a rawness that grates. They await the patina of the second-hand, the lived-in look
+{% endblockquote %}
+
 One of the things you get from learning a discipline is the ability to define the relevant characteristics that make something good or bad so you can more effectively articulate the hunch you have. Lately I’ve been trying to work out what turns me off about certain architectural spaces.
 
 This was brought on by being in corporate managed pseudo-public spaces. They often have a manicured beauty to them, but it’s very still and lifeless. The form and symmetry will be very pleasing and elegant. The colours will have been chosen to be aesthetically pleasing but inoffensive. I went to view a flat once and the estate agent apologised because one of the rooms had eggshell blue walls. “Off white I told him...” Often the space will make heavy use of steel, glass and slate.
