@@ -2,6 +2,7 @@ title: Improving my social life
 date: 2015-10-23 12:09:35
 tags:
 ---
+
 To the frequent dismay of my friends and family, I tend to approach tasks with a moderately unhealthy single mindedness and have an obsessive focus on planning and analysis. I’ve decided to turn this focus to my social life and I’ll thus spend the next 2-3 months improving my social skills, expanding my network and tracking the results.
 
 My social life has changed over the past few years. When I was at university, it was a lot more free flowing. I was in a place with a lot of people doing the same thing and with a lot of free time on their hands. I’m not a part of that community anymore, and my social life has declined in proportion. It’s also become more homogenous, as I’ve stopped having the spontaneous encounters with the people I’m not immediately comfortable with.

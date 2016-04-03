@@ -2,6 +2,7 @@ title: Tracking the improvement of my social life
 date: 2015-10-23 12:09:52
 tags:
 ---
+
 In the [last post](/2015/10/23/Improving-my-social-life/) I described the means by which I’m going to improve my social life. You can’t change what you don’t measure. So I need some metrics. Here’s a graph (made with [d3](http://d3js.org)) of my current social network. You can click and drag the nodes to ping them about.
 
 {% iframe http://tomchambers2.github.io/social-graph/social-graph.html 500 500 %}
