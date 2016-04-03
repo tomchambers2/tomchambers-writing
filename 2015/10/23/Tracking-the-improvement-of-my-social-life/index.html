@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Tracking the improvement of my social life | The writing of Tom Chambers</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="In the last post I described the means by which I’m going to improve my social life. You can’t change what you don’t measure. So I need some metrics. Here’s a graph (made with d3) of my current social">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tracking the improvement of my social life">
+<meta property="og:url" content="http://writing.tomchambers.me/2015/10/23/Tracking-the-improvement-of-my-social-life/index.html">
+<meta property="og:site_name" content="The writing of Tom Chambers">
+<meta property="og:description" content="In the last post I described the means by which I’m going to improve my social life. You can’t change what you don’t measure. So I need some metrics. Here’s a graph (made with d3) of my current social">
+<meta property="og:updated_time" content="2016-04-03T10:48:52.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tracking the improvement of my social life">
+<meta name="twitter:description" content="In the last post I described the means by which I’m going to improve my social life. You can’t change what you don’t measure. So I need some metrics. Here’s a graph (made with d3) of my current social">
+  
+    <link rel="alternative" href="/atom.xml" title="The writing of Tom Chambers" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/">The writing of Tom Chambers</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://writing.tomchambers.me"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-Tracking-the-improvement-of-my-social-life" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2015/10/23/Tracking-the-improvement-of-my-social-life/" class="article-date">
+  <time datetime="2015-10-23T11:09:52.000Z" itemprop="datePublished">Oct 23 2015</time>
+</a>
+		</span>
+		<span class="meta-elements author">Tom Chambers</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Tracking the improvement of my social life
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>In the <a href="/2015/10/23/Improving-my-social-life/">last post</a> I described the means by which I’m going to improve my social life. You can’t change what you don’t measure. So I need some metrics. Here’s a graph (made with <a href="http://d3js.org" target="_blank" rel="external">d3</a>) of my current social network. You can click and drag the nodes to ping them about.</p>
+<iframe src="http://tomchambers2.github.io/social-graph/social-graph.html" width="500" height="500" frameborder="0" allowfullscreen></iframe>
+<p>I graded every connection between me and my connections and between my connections from 0-5 and the nodes on the graph arrange themselves with respect to the strength of their connection with other nodes.</p>
+<p>0 - have never met<br>1 - have met, but wouldn’t approach in supermarket<br>2 - have met, would say hello in the street, but not chat in supermarket<br>3 - would stop to chat for 5 minutes with person in the supermarket, see at events, no active contact<br>4 - actively go out together every so often, don’t call to chat<br>5 - comfortable calling, speak weekly, go out regularly</p>
+<p>There are some caveats. Originally I’d planned to make various ones for people I’d known over the years, but it turned out to be too hard to remember that far back. The relationships below 3/‘would stop for a 5 minute chat’ are too numerous and nebulous to recall precisely and the effect of adding them makes the labour of determining the connections immense (n^2 - n). At that point whether I do or don’t ‘know’ someone gets too fuzzy to calculate.</p>
+<p>I excluded professional contacts, simply because it screwed with the rating. There are some people I talk to a lot but are not high contacts, because it’s all work related.</p>
+<p>The graph isn’t that accurate. I spent quite a while trying to configure it so that it would all be precise, but it doesn’t really work like that because the resulting graph is a simulation of forces which depends on the randomised starting points of the nodes. Dave for instance should be closer to me, but because of his strong ties to his subgroup he ends up quite far away. So this kind of visualisation might actually reveal unconsidered impacts of the strengths of relationships.</p>
+<p>So this is one useful visualisation of how my life will change over the next 3 months. Of course there are lots more interesting things I’d like to understand. For example, where and what kind of events help me meet new people? What behaviours, like alcohol consumption, lead to a change in the number of new people met and relationships developed? How do initial contacts pan out over time? Do some sources of meeting people lead to more friendships than others? On the micro level, I’d like to understand how well the personalities of myself and others lead to rapport when meeting for the first time.</p>
+<p>Here’s a full list of the data I’ll be capturing. In about 3 months I’ll be using this data to make a whole bunch of visualisations and see what insight I can divine into what I can do to grow my network and make more friends, and increase the quality of my social life.</p>
+<ul>
+<li>Social network (evaluated monthly)<ul>
+<li>Number of connections at rank 4 and 5</li>
+<li>Number of new nodes added to network as a whole</li>
+<li>Density of network (number of friends that have mutual friends with me)</li>
+</ul>
+</li>
+<li>Social activity (records kept in calendar)<ul>
+<li>Events attended (invited to/instigated) (location, start time, end time)</li>
+<li>Records of people met (location, time, source, meeting #)</li>
+<li>Analysis of call logs, text messages and emails (frequency, time, distribution)</li>
+<li>Alcohol consumption (units per day)</li>
+<li>Time spent in different locations (recorded by Moves)</li>
+</ul>
+</li>
+<li>Romantic activity (evaluated monthly)<ul>
+<li>Number of people asked on dates</li>
+<li>Number of dates (separated by stage) + success metrics like reply rate</li>
+</ul>
+</li>
+<li>Social skills (recorded on rolling basis, evaluate at non specific intervals)<ul>
+<li>Qualitative analysis of my own and other’s social behaviour on first meeting - answering the question “what makes for a good conversation between new people?”</li>
+<li>Qualitative analysis of actions and events in new relationships as they develop - answering the question “how and why does a first meeting evolve into a friendship?”</li>
+<li>? - perhaps survey data collected from old and new friends on social abilities</li>
+</ul>
+</li>
+</ul>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/2016/04/03/The-Burger-Experience/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          The Burger Experience
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/10/23/Improving-my-social-life/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Improving my social life
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:writing.tomchambers.me">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/">The writing of Tom Chambers</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2016 Tom Chambers<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

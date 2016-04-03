@@ -47,6 +47,264 @@
     <div id="main">
       
   
+    <article id="post-The-Burger-Experience" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2016/04/03/The-Burger-Experience/" class="article-date">
+  <time datetime="2016-04-03T10:00:07.000Z" itemprop="datePublished">Apr 3 2016</time>
+</a>
+		</span>
+		<span class="meta-elements author">Tom Chambers</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2016/04/03/The-Burger-Experience/">The Burger Experience</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I was in a pub once several years ago. From memory it was the <a href="http://royalalbertpub.com/" target="_blank" rel="external">Royal Albert</a>. I was with a couple of friends, entirely sober as I didn’t drink at that point, and enjoying the atmosphere. It was dark, there was loud thumping music playing and in general it was difficult to interact with the people around me. So I descended into a solipsistic world until my burger arrived. When I did, the hypnotic trance I’d been led to an enhanced visceral experience. It is my foremost burger memory.</p>
+<p><img src="/images/burger-experience/burger-2.jpg" alt=""></p>
+<h2 id="The_experiment">The experiment</h2><p>So I resolved to recreate this. I wanted this happy accident to become a reproducible experience that I could create for others. My hypothesis was that by the application of a set of environmental parameters I could drown out the distractions of the environment and one’s own mind. Thus entering a state where flavour is king.</p>
+<p>The music, darkness and burger were obvious points. I added a strobe light, fog machine and projected videos to the mix. The idea was to dislocate the participant as much as possible from the actual room they were in so that the only thing left was them and the burger.</p>
+<p><img src="/images/burger-experience/experiment-setup-1.jpg" alt=""></p>
+<p>Every hypothesis needs trials. First to throw their hat in the ring was my girlfriend Eleanor. I set up an installation in my living room with the projector on the ceiling and the strobe light and fog machine facing towards the participant on the sofa.</p>
+<h2 id="Making_the_burgers">Making the burgers</h2><p>For the burgers themselves, I did a lot of testing, finding the best buns, meat, cooking methods etc. A lot of this information came from <a href="http://seriouseats.com" target="_blank" rel="external">Serious Eat’s</a> <a href="http://www.seriouseats.com/user/profile/Goodeaterkenji" target="_blank" rel="external">Kenji Lopez-Alt</a> and his <a href="http://www.seriouseats.com/search?term=burger" target="_blank" rel="external">articles on burgers</a>. A lot of good stuff, however I found the (expensive!) <a href="http://www.seriouseats.com/recipes/2009/10/the-blue-label-burger-blend-recipe.html" target="_blank" rel="external">blue label burger blend</a> to be not particularly special. Mincing your own meat, probably chuck from the butcher, is miles better than pre ground, but various blends don’t add a whole lot.</p>
+<p><img src="/images/burger-experience/types-of-meat.jpg" alt=""></p>
+<h2 id="Automation">Automation</h2><p>Doing the cooking while trying to set up lights, a smoke machine and making sure the music and video don’t run out was a bit of a challenge. Fortunately this is pretty much all automatable with node.js. The video can be controlled via chromecast using this package (<a href="https://github.com/mafintosh/chromecasts" target="_blank" rel="external">https://github.com/mafintosh/chromecasts</a>). Audio could be done that way as well, but I have an Apple Airplay compatible speaker, so I can make use of these instead: <a href="https://github.com/watson/airplay-server" target="_blank" rel="external">airplay server</a> or <a href="https://www.npmjs.com/package/trampoline" target="_blank" rel="external">trampoline</a>. The strobe light can be activated with an (Orvibo S20 wi-fi plug)[<a href="http://www.amazon.co.uk/Andoer-Wireless-Control-Appliance-Automation/dp/B00PVTCHXS" target="_blank" rel="external">http://www.amazon.co.uk/Andoer-Wireless-Control-Appliance-Automation/dp/B00PVTCHXS</a>] and then turned on and off using this <a href="https://www.npmjs.com/package/node-orvibo" target="_blank" rel="external">node-orvibo</a>. The fog machine is a pain, it requires you to heat it up and then press a button to release when ready. That would need taking apart and triggering perhaps with an (arduino hooked up to the control system)[<a href="http://www.instructables.com/id/Motion-Triggered-Fog-Machine/" target="_blank" rel="external">http://www.instructables.com/id/Motion-Triggered-Fog-Machine/</a>], but not a big task if this was a proper installation.</p>
+<p><img src="/images/burger-experience/experiment-setup-1.jpg" alt=""></p>
+<h2 id="Round_1">Round 1</h2><div class="video-container"><iframe src="//www.youtube.com/embed/dvoksE3hxXM" frameborder="0" allowfullscreen></iframe></div>
+<p><em>Strobe lights are hard to film…</em></p>
+<p>I made a big initial faux pas by putting cheese on Eleanor’s burger, who is lactose intolerant. I managed to remedy this however and the burger went down a treat. Though chicken burger would have been her preference.</p>
+<p>Overall it was an interesting experience, if also ridiculous. Immersion was rated at a 6 or 7. The darkness and music helped (as in the pub experience) but the strobe light was a bit intense.</p>
+<p><img src="/images/burger-experience/burger-1.png" alt=""></p>
+<p>I made the mistake of having the strobe light face right at the participant. A strobe light works best when it captures movement and creates that funny juddery effect. If it’s in your eyes it just blinds you repeatedly.</p>
+<p>The projections were on the ceiling in this iteration. I thought the participant would lean back and take them in ignoring what was in front of them. The problem is that it’s impossible to eat like this. So it was pretty much ignored in favour of avoiding getting ketchup all over you.</p>
+<p>I tried it again with my friend Theo. I didn’t change much this time, and again as he arrived I provided the sensory deprivators (blindfold and earplugs) as I raced about trying to get everything ready. I became aware that this setup was not as efficient as it could have been, as Theo loudly proclaimed his boredom.</p>
+<h2 id="Round_1_-_Second_participant">Round 1 - Second participant</h2><p>Theo described the music (a short loop created with <a href="https://itunes.apple.com/gb/app/figure/id511269223?mt=8" target="_blank" rel="external">Figure</a>) as ‘depressing’ and the <a href="https://www.youtube.com/watch?v=f1kGF0SgOaA" target="_blank" rel="external">trippy visuals</a> rather than being hypnotising as I’d hoped were distracting to someone interested in the making of generative art. The burger got a pretty good review however.</p>
+<p>What these experiments showed me was that I had misjudged the heart of the experience. When I was sitting in that pub, I was deeply relaxed and comfortable. I was allowing myself to sink into the atmosphere. What I’d tried to recreate was something jarring and bizarre, in the hope that that would be overwhelming enough to blot out mundane thoughts. But that’s actually quite unpleasant and it doesn’t really help anything.</p>
+<h2 id="Round_2">Round 2</h2><div class="video-container"><iframe src="//www.youtube.com/embed/gsXOU1FBtyc" frameborder="0" allowfullscreen></iframe></div>
+<p>So I tried again. I adjusted the parameters a bit to accommodate what I learned in the initial experiment. Don’t blind people, let them look the same direction as they’re eating in. And the main change in direction was to make the environment hypnotic, to allow the participant to descend into comfort.</p>
+<p>The second round was a little bit better. This time I chose music I knew Eleanor would find satisfying (Kraftwerk) and a series of youtube videos called <a href="https://www.youtube.com/playlist?list=PLOngNyNi4JM80tLLw2dgjNhYp_KDgFKca" target="_blank" rel="external">‘Oddly Satisfying’</a>. She reported that this was hypnotising and the strobe light and fog added to this experience in their slightly more muted outputs. The problem with doing this in a small space is that it’s difficult to make the fog atmospheric without having it interfere with the taste and smell of the burger. The burger itself she said was nice but a bit greasy, which reminds me of the need to make the food itself the absolute focus.</p>
+<p><img src="/images/burger-experience/unpleasant-smoke.png" alt=""></p>
+<h2 id="What_I_thought">What I thought</h2><p>I joined in with this one myself. It’s difficult to really get the full experience as the organiser/experimenter as I was making mental notes and checking everything was still working ok - all the things I was trying to get my participants to forget about. Even so I thought it was still partially successful. The biggest flaw being the room itself which was far too mundane, the aspect I tried to correct by having the participant look up at the ceiling. The biggest question I had, which also came up for Eleanor, was ‘if one is successfully overwhelmed, does that add to the burger? Or does the burger add to being overwhelmed? Are both desirable?’.</p>
+<p>Overall I think I’d consider the project a success. I learned a key point that being pleasantly overwhelmed, not spooked out that created the experience. Having done these trials I’d like to run this again for a wider audience. A lot of the elements are right. The biggest change would be putting the participant in a properly dark room with a larger projection, surround sound and perhaps a choice of burger type (beef, chicken, fish, veggie). A living room is just too ordinary for this project.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-Tracking-the-improvement-of-my-social-life" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2015/10/23/Tracking-the-improvement-of-my-social-life/" class="article-date">
+  <time datetime="2015-10-23T11:09:52.000Z" itemprop="datePublished">Oct 23 2015</time>
+</a>
+		</span>
+		<span class="meta-elements author">Tom Chambers</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2015/10/23/Tracking-the-improvement-of-my-social-life/">Tracking the improvement of my social life</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>In the <a href="/2015/10/23/Improving-my-social-life/">last post</a> I described the means by which I’m going to improve my social life. You can’t change what you don’t measure. So I need some metrics. Here’s a graph (made with <a href="http://d3js.org" target="_blank" rel="external">d3</a>) of my current social network. You can click and drag the nodes to ping them about.</p>
+<iframe src="http://tomchambers2.github.io/social-graph/social-graph.html" width="500" height="500" frameborder="0" allowfullscreen></iframe>
+<p>I graded every connection between me and my connections and between my connections from 0-5 and the nodes on the graph arrange themselves with respect to the strength of their connection with other nodes.</p>
+<p>0 - have never met<br>1 - have met, but wouldn’t approach in supermarket<br>2 - have met, would say hello in the street, but not chat in supermarket<br>3 - would stop to chat for 5 minutes with person in the supermarket, see at events, no active contact<br>4 - actively go out together every so often, don’t call to chat<br>5 - comfortable calling, speak weekly, go out regularly</p>
+<p>There are some caveats. Originally I’d planned to make various ones for people I’d known over the years, but it turned out to be too hard to remember that far back. The relationships below 3/‘would stop for a 5 minute chat’ are too numerous and nebulous to recall precisely and the effect of adding them makes the labour of determining the connections immense (n^2 - n). At that point whether I do or don’t ‘know’ someone gets too fuzzy to calculate.</p>
+<p>I excluded professional contacts, simply because it screwed with the rating. There are some people I talk to a lot but are not high contacts, because it’s all work related.</p>
+<p>The graph isn’t that accurate. I spent quite a while trying to configure it so that it would all be precise, but it doesn’t really work like that because the resulting graph is a simulation of forces which depends on the randomised starting points of the nodes. Dave for instance should be closer to me, but because of his strong ties to his subgroup he ends up quite far away. So this kind of visualisation might actually reveal unconsidered impacts of the strengths of relationships.</p>
+<p>So this is one useful visualisation of how my life will change over the next 3 months. Of course there are lots more interesting things I’d like to understand. For example, where and what kind of events help me meet new people? What behaviours, like alcohol consumption, lead to a change in the number of new people met and relationships developed? How do initial contacts pan out over time? Do some sources of meeting people lead to more friendships than others? On the micro level, I’d like to understand how well the personalities of myself and others lead to rapport when meeting for the first time.</p>
+<p>Here’s a full list of the data I’ll be capturing. In about 3 months I’ll be using this data to make a whole bunch of visualisations and see what insight I can divine into what I can do to grow my network and make more friends, and increase the quality of my social life.</p>
+<ul>
+<li>Social network (evaluated monthly)<ul>
+<li>Number of connections at rank 4 and 5</li>
+<li>Number of new nodes added to network as a whole</li>
+<li>Density of network (number of friends that have mutual friends with me)</li>
+</ul>
+</li>
+<li>Social activity (records kept in calendar)<ul>
+<li>Events attended (invited to/instigated) (location, start time, end time)</li>
+<li>Records of people met (location, time, source, meeting #)</li>
+<li>Analysis of call logs, text messages and emails (frequency, time, distribution)</li>
+<li>Alcohol consumption (units per day)</li>
+<li>Time spent in different locations (recorded by Moves)</li>
+</ul>
+</li>
+<li>Romantic activity (evaluated monthly)<ul>
+<li>Number of people asked on dates</li>
+<li>Number of dates (separated by stage) + success metrics like reply rate</li>
+</ul>
+</li>
+<li>Social skills (recorded on rolling basis, evaluate at non specific intervals)<ul>
+<li>Qualitative analysis of my own and other’s social behaviour on first meeting - answering the question “what makes for a good conversation between new people?”</li>
+<li>Qualitative analysis of actions and events in new relationships as they develop - answering the question “how and why does a first meeting evolve into a friendship?”</li>
+<li>? - perhaps survey data collected from old and new friends on social abilities</li>
+</ul>
+</li>
+</ul>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-Improving-my-social-life" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2015/10/23/Improving-my-social-life/" class="article-date">
+  <time datetime="2015-10-23T11:09:35.000Z" itemprop="datePublished">Oct 23 2015</time>
+</a>
+		</span>
+		<span class="meta-elements author">Tom Chambers</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2015/10/23/Improving-my-social-life/">Improving my social life</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>To the frequent dismay of my friends and family, I tend to approach tasks with a moderately unhealthy single mindedness and have an obsessive focus on planning and analysis. I’ve decided to turn this focus to my social life and I’ll thus spend the next 2-3 months improving my social skills, expanding my network and tracking the results.</p>
+<p>My social life has changed over the past few years. When I was at university, it was a lot more free flowing. I was in a place with a lot of people doing the same thing and with a lot of free time on their hands. I’m not a part of that community anymore, and my social life has declined in proportion. It’s also become more homogenous, as I’ve stopped having the spontaneous encounters with the people I’m not immediately comfortable with.</p>
+<p>Something else that’s changed is that the people I used to know in my network were edge nodes that connected me to another network, essentially doing the work of maintaining that network for me, meaning I could go along to the parties and social events of that network without really being a part of it. Of course having this single link means low resiliency, so when my relationship declines with that individual node my connection to that network effectively ceases as well.</p>
+<p>So now I’d like to actively change this. I want to live a more socially interesting life, to have a larger network and to make that network denser (each person-node has many connections to other nodes) for greater resiliency. I’d also like to meet more women. To do this I’m going to totally fill my free time with social activity and its analysis. I’m going to take every opportunity I can and create as many as possible. I’ll make an effort to meet new people and work out what parameters help me to develop rapport and what leads to the growth of a friendship.</p>
+<p>Here’s a more complete list:</p>
+<ul>
+<li>Know more people<ul>
+<li>Make an effort to increase the rank of existing of contacts in network, including old friends who have slipped<ul>
+<li>Send texts and emails to these people</li>
+<li>Invite these people to events I’m going to and to meet individually</li>
+</ul>
+</li>
+<li>Make an effort to turn new acquaintances into increasingly ranked contacts in network<ul>
+<li>Take notes on interactions with new people and work out what’s blocking progression, make effort to be actively social when meeting new people</li>
+<li>Send texts and emails to these people</li>
+<li>Invite these people to events I’m going to and to meet individually</li>
+</ul>
+</li>
+<li>Invite friends to events where they can get to know each other to increase connectedness of network and establish core</li>
+<li>Setup social media accounts<ul>
+<li>Setup facebook + add friends</li>
+<li>Setup twitter</li>
+<li>Hire a freelancer to manage my facebook and twitter accounts - post updates and send digests of relevant information</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Go out more<ul>
+<li>Accept all invitations to social events from people I already know</li>
+<li>Instigate events and invite people to attend, esp people I don’t know well</li>
+<li>Find and attend meetup and similar events where interesting people might be</li>
+<li>Start drinking<ul>
+<li>Establish set of rules to prevent excessive drinking</li>
+<li>Plan party to celebrate first beer, prepare flyer and guest list</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Go on more dates<ul>
+<li>Meet women in person (through knowing more people), ask them on dates</li>
+<li>Set up profiles + send messages on online dating services<ul>
+<li>Take photos for profile</li>
+<li>OkCupid<ul>
+<li>Set up bot for auto liking/profile viewing etc</li>
+</ul>
+</li>
+<li>Tinder<ul>
+<li>Set up bot to auto like users, make date requests</li>
+</ul>
+</li>
+<li>Happn</li>
+<li>Others (there seem to be hundreds)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Next post: <a href="/2015/10/23/Tracking-the-improvement-of-my-social-life/">Tracking improvement</a></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-unusual-noises" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
@@ -485,179 +743,6 @@
 			<span class="tags">
 				
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/art/">art</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-What-s-wrong-with-copyright" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/2015/04/06/What-s-wrong-with-copyright/" class="article-date">
-  <time datetime="2015-04-06T20:30:10.000Z" itemprop="datePublished">Apr 6 2015</time>
-</a>
-		</span>
-		<span class="meta-elements author">Tom Chambers</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/2015/04/06/What-s-wrong-with-copyright/">What&#39;s wrong with copyright</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Copyright makes sense doesn’t it? If you put your heart and your hard graft into making music, or writing a novel, or contribute to the production of a major film, shouldn’t you get to choose what happens to your work? Woudn’t it be an affront to justice to have someone do whatever they like to it? Author Phillip Pullman describes it as <a href="http://www.theguardian.com/books/2013/sep/15/philip-pullman-illegal-downloading-theft" target="_blank" rel="external">“theft, as surely as reaching into someone’s pocket and taking their wallet”</a>.  The argument is simple and clear.</p>
-<p>As with many things however, it isn’t as open and shut as it first appears. The presentation of unauthorised sharing as equivalent to physical theft is inaccurate, as the analogy does not make the leap from analogue to digital. This is a problem of old metaphors, something that often crops up when thinking about technology (link to evgeny morozov, the net delusion). When downloading a file from a server, or in parts from many other people using bittorrent, the process is non-destructive and you end up with two copies. In the wallet scenario, Philip no longer has his bank cards and pictures of his grandchildren. Thus digital piracy is not a zero sum game since it’s possible to produce an infinite number of copies of any particular work.</p>
-<p>The concept of a file as being the same as a loaf of bread is bizarre. It supports big record labels who have been pumping huge sums of money into ridiculous adverts for the past 10 years, while watching their empire crumble around them. We really have to rethink what a creative work is. The only justification for protection of copyright is the sustenance and reward of the author. There is an appropriate amount of money that should be directed towards the creator to enable them to live a decent life and produce new works.</p>
-<p>There’s a moral indignation present in a lot of these arguments, not based on economic argument, but promoted by the thought of someone getting something for nothing, without having earned it. The reward for creating value and sustenance of that person should be our goal, rather than making an arbitrary determination about who deserves to have what.</p>
-<p>Creative works join a pool of culture and improve it. A single artwork like a piece of music can’t exist in isolation. What would dubstep be without dub and hip hop? What would dub be without reggae? Copyright holds a choke chain on the ability of an artist to create since they cannot sample old works. While some art forms like rap beats make very explicit use of sampling, everything creative does to some degree. You couldn’t besmirch if Shakespeare hadn’t invented the word.</p>
-<p>So what we need are an appropriate set of rights that reflect the interweaved network of creativity we call our culture. Property is a bundle of rights. It’s never total. So we don’t have to either make everything free or castrate file sharers. We can assign some intellectual property rights to creators but recognise what they’ve borrowed from culture and unlock some of the capital to allow future creators to do the same.</p>
-<p>To this end copyright should have a much more restrictive time limit of 10 years with liberal exceptions for creative works that remix existing material. Of course the current logic of copyright is unsustainable. We are denying ourselves the opportunity for a greater culture that builds on itself over and over because of the desire to put a value and restriction on something that cannot be depleted. We are forced to do this because the material resources we depend upon to survive are arbitrarily divided, compelling artists to create things that make money, rather than using our collective resources to create things that enhance our spirits.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/copyright/">copyright</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-streets-need-spirit" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/2015/04/06/streets-need-spirit/" class="article-date">
-  <time datetime="2015-04-06T20:28:23.000Z" itemprop="datePublished">Apr 6 2015</time>
-</a>
-		</span>
-		<span class="meta-elements author">Tom Chambers</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/2015/04/06/streets-need-spirit/">Streets need spirit</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<blockquote><p>The great lakes and engineering structures, the large scale housing and employment areas now have a rawness that grates. They await the patina of the second-hand, the lived-in look</p>
-<footer><strong>Derek Walker</strong><cite>The Architecture and Planning of Milton Keynes</cite></footer></blockquote>
-<p>One of the things you get from learning a discipline is the ability to define the relevant characteristics that make something good or bad so you can more effectively articulate the hunch you have. Lately I’ve been trying to work out what turns me off about certain architectural spaces.</p>
-<p>This was brought on by being in corporate managed pseudo-public spaces. They often have a manicured beauty to them, but it’s very still and lifeless. The form and symmetry will be very pleasing and elegant. The colours will have been chosen to be aesthetically pleasing but inoffensive. I went to view a flat once and the estate agent apologised because one of the rooms had eggshell blue walls. “Off white I told him…” Often the space will make heavy use of steel, glass and slate.</p>
-<p>It’s not just offices but some new housing has this same effect as well. Other places have a sense of life and colour. I came to realise that its the artefacts of people’s lives that give it this impression. Plant pots, kid’s toys, bikes on balconies, worn bricks, posters in windows, garden sheds and scruffy front doors. What all these things have in common is that they result from people doing ordinary things and they convey that impression. Even a plant pot with dead yellow stalks hanging limply over the sides tells you something about that person within the walls, it gives you an insight into their character.</p>
-<p>When I was in Pret recently I realised it had this lifeless quality. It’s like an Ikea showroom. Scrubbed clean of anything that might give it some idiosyncrasy. There’s an awareness that the staff are transplants; the gap between the till and the coffee machine does not belong to them but to a nameless corporate department whose personality has not graced the store. One assumes that there is a chain of command involved from board members to CEO, from the head of marketing to the fitter that installed the sign with a friendly but eerily impersonal reminder about freshness.</p>
-<p>These chains remind me of self cleaning toilets. Anything not bolted down is to be flushed away, revealing a slick birch surface beneath the daily sediment of human activity. The signs of life from a person’s home don’t generally concern passion and tragedy, they’re simply reminders that a person exists and occupies a space with their humanity.</p>
-<p>To combat this alienation from our surroundings, we should increase the amount of material in construction that pick up these symbols of activity. There is a limited amount of material we would find unsightly - a street with a burnt out car, old mattresses and dead vegetation would be unsightly.</p>
-<p>There are two elements of responsive architecture: the architectural elements that are designed to respond to the accumulation of people’s actions. The balconies that fill up with personal items are good examples of this. The other is the configurable element that allows people to deliberately modify their environment to express themselves. A community noticeboard with job offers, social groups or political rallies serves this purpose - it is a clear physical manifestation of society’s bonds and conflicts.</p>
-<p>We have enough tech capability to permeate the world with even more architectural elements that pick up life through conscious and unconscious actions. We can create living spaces that truly reflect the people who inhabit them.</p>
-<p>I’ve added a photo gallery below featuring some examples of these two styles. Without comment so you can make your own judgement.</p>
-<iframe src="http://flickrit.com/slideshowholder.php?height=600&width=600&size=medium&setId=72157651382001219&thumbnails=0&transition=0&layoutType=fixed&sort=0" width="600" height="610" frameborder="0" allowfullscreen></iframe>
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/urbanism/">urbanism</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-three-words-that-need-to-die" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/2014/10/24/three-words-that-need-to-die/" class="article-date">
-  <time datetime="2014-10-24T13:47:36.000Z" itemprop="datePublished">Oct 24 2014</time>
-</a>
-		</span>
-		<span class="meta-elements author">Tom Chambers</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/2014/10/24/three-words-that-need-to-die/">3 words that need to die (or why I didn&#39;t take that job in advertising)</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p><strong>Content</strong></p>
-<p>Picture ‘content’. A sea of grey goop flooding the corridors of an anonymous publishing company. A uniformly coloured substance splashes out of the sockets, light fittings and the keyboards of those employed to create it. What is content? It’s an assertion of blandness, explicitly bounding the reaches of a piece of writing, a photograph or music. An assumption that a short story is fungible with a how to article about talcum powder.</p>
-<p>The problem with the term content is the lack of respect it has for a creative work. It becomes something wrapped in a cardboard box and filed with things wrapped in the same way so that they all become indistinguishable from each other. Those contents are then seen as a path to making money. It’s an asset. The person responsible for distributing that content then packages it in such a way that makes it most convenient to serve adverts around it. They have no regard for the art of the piece and through lack of concern advertently crush it. The author, robbed of the power to draw something that isn’t a rectangle, falls into line and pumps out dross that prods but never pushes.</p>
-<p>When you watch a great film it invades your very being. It doesn’t respect the boundaries of what is fictional and your real life. It draws on the relationships you have with people and the world to invoke the drama of the scenes it portrays. In the process it twists these parts of your perception into something new, leaving you forever shaped by its narratives. Experiencing content is like taking a lukewarm bath.</p>
-<p><strong>Creative</strong></p>
-<p>A job so ludicrously empty of creativity, it needs to have the word injected into the title to reassure the undertaker that they’re not an accountant. A creative is a person who works for an advertising company that takes existing ideas from elsewhere that haven’t been seen much and creates a dead eyed carbon copy. In contrast to the venture of the unknown, they wield a promotional budget to rival a small country’s national debt.</p>
-<p>It’s subsequently their job to peddle it to client and consumer alike with equally vacant buzzwords. They will generate content designed to drive passion from mobile consumers and ultimately create a unique experience.</p>
-<p><strong>Experience</strong></p>
-<p>The product of the creative. In my naivete I’d been led to believe that experience is something that occurs to us from moment to moment, the consequence of consciousness informed by sensation and impossible to opt out from. I now understand that an experience is something that has been created by someone who works for an advertising company and we owe them a great deal for giving us the opportunity of so many experiences on television, the internet and the sides of buses.</p>
-<p>Were you aware that by the time you’ve taken a shower and had breakfast you’ve already engaged with more brands than you have fingers? Don’t worry, people are paid to think about this for you and optimise your experience. It’ll be a customised social experience that’s encompasses profound innovations. You’ll be engaging in a multi-channel collaboration with brand in an interactive manner. Is all this a little dizzying? Don’t worry, the brand you’re engaging with will be empowering you to make changes in your life.</p>
-<p>Experience the experience.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/advertising/">advertising</a></li></ul>
 
 			</span>
 		</div>
